@@ -20,7 +20,7 @@ class App < Sinatra::Base
       #
       # erb :team
 
-      "#{params[:team][:name]}"
+      "#{params.self}"
     end
 
 
