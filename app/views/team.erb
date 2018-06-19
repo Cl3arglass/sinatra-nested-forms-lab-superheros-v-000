@@ -1,15 +1,13 @@
 <h1><%= params[:team][:name] %></h1>
 <h2>Team Motto: <%= params[:team][:motto] %></h2><br>
-<h2>Hero Name: <%= @member.name %></h2><br>
-  <h4>Hero Power: <%= @member.power %></h4>
-  <h4>Hero Biography: <%= @member.bio %></h4>
+<h2>Hero Name: <%= @members[0].name %></h2><br>
+  <h4>Hero Power: <%= @members[0].power %></h4>
+  <h4>Hero Biography: <%= @members[0].bio %></h4>
 
-<h2>Display your first ship here</h2>
-<p>Name: <%= @ships[0].name %></p><br>
-<p>Type: <%= @ships[0].type %></p><br>
-<p>Booty: <%= @ships[0].booty %></p><br>
+  h2>Hero Name: <%= @members[1].name %></h2><br>
+    <h4>Hero Power: <%= @members[1].power %></h4>
+    <h4>Hero Biography: <%= @members[1].bio %></h4>
 
-<h2>Display your second ship here</h2>
-  <p>Name: <%= @ships[1].name %></p><br>
-  <p>Type: <%= @ships[1].type %></p><br>
-  <p>Booty: <%= @ships[1].booty %></p><br>
+    h2>Hero Name: <%= @members[2].name %></h2><br>
+      <h4>Hero Power: <%= @members[2].power %></h4>
+      <h4>Hero Biography: <%= @members[2].bio %></h4>
